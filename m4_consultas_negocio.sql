@@ -30,7 +30,7 @@ SELECT
    FROM ventas
    GROUP BY id_clientes;
 
---CONSULTA
+--CONSULTA 4
 
  WITH VentasPorProducto AS (
     SELECT
@@ -55,4 +55,9 @@ FROM VentasPorProducto
 ORDER BY Total_Facturado DESC;
 
     
+--Durante marzo de 2024 se registraron 10 ventas,con una facturacion total de 6444.00 y unticket promedio de 644.40.
 
+--El producto 1 (Laptop Pro 15) fue el que genero mayor facturacion,con 3600.00,
+--representando el 55.87% del total facturado.
+
+--Todos los clientes tuvieron la misma cantidad de pedidos
